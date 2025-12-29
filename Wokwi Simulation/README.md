@@ -220,6 +220,11 @@ Due to simulation limitations, potentiometers are used to **emulate physiologica
 
 ---
 
+## Wokwi Simulation Link
+https://wokwi.com/projects/451642293869923329
+
+---
+
 ## ⚠️ Disclaimer
 
 This simulation is intended for **educational and proof-of-concept purposes only**.
