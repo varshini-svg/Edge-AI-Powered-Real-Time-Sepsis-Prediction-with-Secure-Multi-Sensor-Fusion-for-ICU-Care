@@ -117,7 +117,8 @@ Due to hardware and ethical constraints in medical systems, the project is demon
 - Arduino IDE  
 - Wokwi Simulator  
 - Embedded C/C++  
-- Edge-based ML Logic  
+- Edge-based ML Logic
+- Python for Machine Learning Model and security layer 
 
 ---
 
