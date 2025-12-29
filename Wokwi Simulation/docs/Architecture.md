@@ -1,12 +1,12 @@
 ## DataFlow Diagram Architecture
 
-[ Potentiometers / Virtual Sensors ]
-                ↓
-        [ ESP32 / Arduino ]
-                ↓
-   [ Feature Processing & Risk Logic ]
-                ↓
-      [ Serial Output / Status ]
+Step 1:  Potentiometers / Virtual Sensors 
+                
+Step 2:  ESP32 / Arduino 
+                
+Step 3:  Feature Processing & Risk Logic 
+                
+Step 4:  Serial Output / Status 
 
 ---
 
@@ -31,7 +31,8 @@ Step 2:
  - Sepsis Risk Logic (Rule-based / ML-ready) 
      
 Step 3:
-**ICU MONITORING UI** 
+**ICU MONITORING UI**
+
 (Serial Monitor / Virtual Dashboard)
 - Risk Level: LOW / MEDIUM / HIGH
 - Real-time Vital Signs Display   
