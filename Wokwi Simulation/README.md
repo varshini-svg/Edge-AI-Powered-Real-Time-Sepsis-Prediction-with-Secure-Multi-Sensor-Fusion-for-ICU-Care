@@ -151,12 +151,19 @@ Alerts are generated **instantly at the edge**, without cloud dependency.
 --- MQTT Publish (Encrypted Payload) ---
 {
   "patient_id": "ICU_01",
+  
   "temperature": 39.00
+  
   "heart_rate": 117.00
+  
   "spo2": 89.00
+  
   "resp_rate": 19.00
+  
   "risk": "HIGH"
+
 }
+
 ---
 
 ## ▶️ How to Run the Simulation
@@ -225,7 +232,7 @@ It does **not replace medical diagnosis** and should be clinically validated bef
 
 ## 👥 Team
 
-**Team Name**: Neuro Edge
+**Team Name**: NeuroEdge
 **Domain**: Edge AI | Healthcare IoT | Critical Care Systems
 
 ---
@@ -234,6 +241,4 @@ It does **not replace medical diagnosis** and should be clinically validated bef
 
 This Wokwi simulation successfully demonstrates a **secure, edge-intelligent sepsis prediction system** that aligns with modern ICU requirements and hackathon evaluation criteria.
 
-
-Just tell me 👍
-
+---
