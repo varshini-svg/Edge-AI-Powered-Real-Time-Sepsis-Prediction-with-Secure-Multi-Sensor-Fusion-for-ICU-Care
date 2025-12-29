@@ -1,7 +1,4 @@
 # 🩺 Edge-AI Enabled Real-Time Sepsis Prediction System
-
-### Wokwi Simulation – README
-
 ---
 
 ## 📌 Project Overview
