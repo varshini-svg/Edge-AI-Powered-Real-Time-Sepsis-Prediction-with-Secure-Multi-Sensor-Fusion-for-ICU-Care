@@ -127,31 +127,6 @@ The project demonstrates **logical security mechanisms** suitable for edge-AI sy
 
 ---
 
-## 📂 Repository Structure (Python)
-
-```
-├── data/
-│   └── sepsis_dataset.csv
-│
-├── models/
-│   ├── rf_model.pkl
-│   ├── scaler.pkl
-│   └── model_hash.txt
-│
-├── src/
-│   ├── dataset_generator.py
-│   ├── preprocessing.py
-│   ├── train_model.py
-│   ├── evaluation_plots.py
-│   ├── realtime_simulation.py
-│   ├── realtime_plots.py
-│   └── secure_inference.py
-│
-└── README.md
-```
-
----
-
 ## ▶️ How to Run (Python Only)
 
 ### 1️⃣ Install Dependencies
