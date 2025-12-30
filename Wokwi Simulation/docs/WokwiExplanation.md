@@ -105,11 +105,11 @@ The ESP32 performs **local inference** using clinically inspired thresholds:
 
 ### Risk Scoring Criteria
 
-* Temperature > 38 °C
-* Heart Rate > 100 bpm
-* SpO₂ < 92 %
-* Respiration Rate > 22
-* Shock Index > 0.9
+ - Temperature > 38°C        → +1
+ - Heart Rate  > 100 bpm     → +1
+ - SpO₂        < 92%         → +1
+ - Resp Rate   > 22 / min    → +1
+
 
 ### Risk Classification
 
