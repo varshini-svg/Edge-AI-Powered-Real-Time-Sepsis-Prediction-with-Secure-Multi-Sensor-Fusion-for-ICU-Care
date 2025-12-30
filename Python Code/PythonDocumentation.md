@@ -197,6 +197,12 @@ python realtime_plots.py
 
 ---
 
+## Google Colab Link
+
+https://colab.research.google.com/drive/162yEW-i_V1PJNOUFn2NLEagaA5obQ9n0?usp=sharing
+
+---
+
 ## 📌 Disclaimer
 
 This project is intended for **academic, hackathon, and research purposes only** and **not for direct clinical use** without regulatory approval.
