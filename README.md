@@ -1,54 +1,54 @@
 # Edge-AI-Powered-Real-Time-Sepsis-Prediction-with-Secure-Multi-Sensor-Fusion-for-ICU-Care
 
-## 📌 Project Overview
+##  Project Overview
 Sepsis is a life-threatening medical emergency that requires early detection and rapid intervention to reduce mortality in Intensive Care Units (ICUs). Traditional monitoring systems rely on periodic assessments and cloud-based processing, which introduce critical delays and privacy concerns.
 
 This project presents an **Edge-AI based real-time sepsis prediction system** that continuously monitors patient vital signs using multiple sensors, fuses the data locally, and predicts sepsis risk directly at the bedside. The system ensures **low latency, secure data handling, and timely alerts** to assist clinicians in critical decision-making.
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 Delayed diagnosis of sepsis in ICUs leads to increased mortality due to:
-- ⏳ Periodic and manual vital sign monitoring  
-- 🌐 Latency in cloud-dependent systems  
-- 🔐 Patient data privacy and security concerns  
-- 👩‍⚕️ Overburdened healthcare staff  
+-  Periodic and manual vital sign monitoring  
+-  Latency in cloud-dependent systems  
+-  Patient data privacy and security concerns  
+-  Overburdened healthcare staff  
 
-➡️ There is a strong need for a **real-time, secure, and intelligent bedside monitoring solution.**
+ There is a strong need for a **real-time, secure, and intelligent bedside monitoring solution.**
 
 ---
 
-## 💡 Proposed Solution
+##  Proposed Solution
 Our solution leverages **Edge AI** and **secure wireless multi-sensor fusion** to:
-- 📡 Continuously collect physiological data  
-- ⚡ Perform real-time sepsis risk prediction locally  
-- 🚨 Trigger early alerts for clinicians  
-- 🔐 Preserve patient data privacy  
+-  Continuously collect physiological data  
+-  Perform real-time sepsis risk prediction locally  
+-  Trigger early alerts for clinicians  
+-  Preserve patient data privacy  
 
-👉 The system acts as an assistive **early-warning tool**, not a replacement for clinical diagnosis.
-
----
-
-## 🧩 Key Features
-- ⚡ **Edge AI Inference** – Low-latency, real-time predictions  
-- 🔗 **Multi-Sensor Fusion** – Improved accuracy using combined vitals  
-- 🔐 **Secure Wireless Communication** – Privacy-preserving data handling  
-- 🚨 **Instant Alerts** – Early warning for high-risk patients  
-- 🏥 **ICU-Focused Design** – Bedside deployment, clinician-friendly  
+The system acts as an assistive **early-warning tool**, not a replacement for clinical diagnosis.
 
 ---
 
-## 🔬 Physiological Parameters Monitored
-- 🌡️ Body Temperature  
-- ❤️ Heart Rate  
-- 🫁 Respiratory Rate  
-- 🩸 Oxygen Saturation (SpO₂)  
+##  Key Features
+-  **Edge AI Inference** – Low-latency, real-time predictions  
+-  **Multi-Sensor Fusion** – Improved accuracy using combined vitals  
+-  **Secure Wireless Communication** – Privacy-preserving data handling  
+-  **Instant Alerts** – Early warning for high-risk patients  
+-  **ICU-Focused Design** – Bedside deployment, clinician-friendly  
+
+---
+
+##  Physiological Parameters Monitored
+-  Body Temperature  
+-  Heart Rate  
+-  Respiratory Rate  
+-  Oxygen Saturation (SpO₂)  
 
 *(Expandable to BP, ECG, Lactate levels)*
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 **Data Flow:**  
 Sensors → Edge Device → AI Inference → Risk Classification → Alerts & Dashboard  
 
@@ -61,19 +61,19 @@ Sensors → Edge Device → AI Inference → Risk Classification → Alerts & Da
 
 ---
 
-## 🧠 AI & Decision Logic
+##  AI & Decision Logic
 - Time-series vital signs are **preprocessed and normalized**  
 - Fused features are evaluated using an **ML-based risk model**  
 - Output classified as:  
-  - ✅ Low Risk  
-  - ⚠️ Moderate Risk  
-  - 🚨 High Sepsis Risk  
+  -  Low Risk  
+  -  Moderate Risk  
+  -  High Sepsis Risk  
 
-👉 The model is lightweight and **edge-deployable**.
+The model is lightweight and **edge-deployable**.
 
 ---
 
-## 🧪 Simulation Environment (Wokwi)
+##  Simulation Environment (Wokwi)
 Due to hardware and ethical constraints in medical systems, the project is demonstrated using **Wokwi ESP32 simulation**.
 
 **Simulated Components:**
@@ -91,7 +91,7 @@ Due to hardware and ethical constraints in medical systems, the project is demon
 
 ---
 
-## 🔐 Security & Privacy
+##  Security & Privacy
 - Edge processing minimizes raw data transmission  
 - Only **sepsis risk scores** are shared  
 - Conceptual **AES encryption** for wireless communication  
@@ -99,7 +99,7 @@ Due to hardware and ethical constraints in medical systems, the project is demon
 
 ---
 
-## 📊 Outputs & Alerts
+##  Outputs & Alerts
 - 📡 Live vital sign readings  
 - 🧠 Sepsis risk classification  
 - 💡 Visual alerts (LED)  
@@ -108,17 +108,18 @@ Due to hardware and ethical constraints in medical systems, the project is demon
 
 ---
 
-## 🛠️ Tools & Technologies
-**Hardware (Simulated):**
-- ESP32  
-- Biomedical Sensors  
+##  Tools & Technologies
+**Wokwi Simulation tools**
+- ESP32 Microcontroller
+- Biomedical Sensors (Potentiometers are used to due to sensor limitation in Wokwi) 
 
-**Software:**
-- Arduino IDE  
-- Wokwi Simulator  
-- Embedded C/C++  
-- Edge-based ML Logic
-- Python for Machine Learning Model and security layer 
+
+**Embedded and Machine Learning tools**
+- Raspberry Pi Pico
+- Temperature Sensor
+- Respiratory Sensor
+- SpO2 Sensor
+- Python 
 
 ---
 
