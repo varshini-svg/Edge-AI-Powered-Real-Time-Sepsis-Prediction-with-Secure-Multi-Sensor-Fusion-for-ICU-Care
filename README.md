@@ -100,11 +100,11 @@ Due to hardware and ethical constraints in medical systems, the project is demon
 ---
 
 ##  Outputs & Alerts
-- 📡 Live vital sign readings  
-- 🧠 Sepsis risk classification  
-- 💡 Visual alerts (LED)  
-- 🔊 Audio alerts (Buzzer)  
-- 🖥️ Real-time serial dashboard  
+-  Live vital sign readings  
+-  Sepsis risk classification  
+-  Visual alerts (LED)  
+-  Audio alerts (Buzzer)  
+-  Real-time serial dashboard  
 
 ---
 
@@ -123,37 +123,37 @@ Due to hardware and ethical constraints in medical systems, the project is demon
 
 ---
 
-## 🏆 Impact & Benefits
-- ⏱️ Early sepsis detection saves lives  
-- ⚡ Reduced ICU response time  
-- ☁️ Lower dependence on cloud infrastructure  
-- 🔐 Enhanced patient data security  
-- 🌍 Scalable for rural and resource-limited hospitals  
+##  Impact & Benefits
+-  Early sepsis detection saves lives  
+-  Reduced ICU response time  
+-  Lower dependence on cloud infrastructure  
+-  Enhanced patient data security  
+-  Scalable for rural and resource-limited hospitals  
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 This project is intended for **academic and hackathon demonstration purposes only.**  
 It does not replace clinical diagnosis and must undergo **clinical validation** before real-world deployment.
 
 ---
 
-## 🚀 Future Enhancements
-- 📊 Integration with real ICU datasets (MIMIC-III)  
-- 🤖 Advanced ML models (LSTM, XGBoost)  
-- 📱 Mobile app alerts for clinicians  
-- ☁️ Cloud-assisted analytics (non-real-time)  
-- 🏥 Multi-patient ICU scaling  
+##  Future Enhancements
+-  Integration with real ICU datasets (MIMIC-III)  
+-  Advanced ML models (LSTM, XGBoost)  
+-  Mobile app alerts for clinicians  
+-  Cloud-assisted analytics (non-real-time)  
+-  Multi-patient ICU scaling  
 
 ---
 
-## 👥 Team
+##  Team
 - **Team Name:** Neuro Edge  
 - **Domain:** Edge AI | Healthcare | IoT | Secure Systems  
 
 ---
 
-## 🏁 Conclusion
+##  Conclusion
 This project demonstrates how **Edge AI combined with secure multi-sensor fusion** can transform ICU monitoring by enabling **early, real-time, and privacy-preserving sepsis prediction**, supporting clinicians in saving lives through faster intervention.
 
 ---
